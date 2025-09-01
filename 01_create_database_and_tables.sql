@@ -2,15 +2,15 @@ USE master;
 GO
 IF EXISTS (SELECT NAME 
            FROM   master.dbo.sysdatabases 
-            WHERE  NAME = N'PodrskaRadaMuzeja1')
+            WHERE  NAME = N'PodrskaRadaMuzeja')
 
 BEGIN
-DROP DATABASE PodrskaRadaMuzeja1; 
+DROP DATABASE PodrskaRadaMuzeja; 
 END
 
-CREATE DATABASE PodrskaRadaMuzeja1; 
+CREATE DATABASE PodrskaRadaMuzeja; 
 GO
-USE PodrskaRadaMuzeja1; 
+USE PodrskaRadaMuzeja; 
 
 CREATE TABLE [Saradnik] 
   ( 
