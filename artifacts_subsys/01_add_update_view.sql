@@ -1,4 +1,4 @@
-USE PodrskaRadaMuzeja1
+USE PodrskaRadaMuzeja
 GO
 CREATE VIEW pUmetanje_Azuriranje_Izlozbe
 AS
